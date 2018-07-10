@@ -1,0 +1,162 @@
+/* -------------------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fbfbfb;
+  color: black;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  counter-reset: item;
+  overflow-x: hidden;
+}
+
+/* main theme color: #5badb8 */
+
+/* -------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------------------- */
+
+section {
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: 200%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 120%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 120%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+p,ul {
+  font-size: 80%;
+  font-weight: 100;
+  list-style: none;
+}
+
+ul {
+  line-height: 2;
+}
+
+button {
+  background-color: white;
+  color: #5badb8;
+  border: 2px solid #5badb8;
+  padding: 8px 15px;
+  font-weight: 300;
+  transition: all 0.2s;
+  border-radius: 290486px;
+  color: #5badb8;
+  font-size: 90%;
+}
+
+button:hover {
+  background-color: #5badb8;
+  color: white;
+}
+
+ion-icon {
+  color: #5badb8;
+  font-size: 300%;
+  margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------------- */
+/* HEADER SECTION */
+/* -------------------------------------------------- */
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  border: 2px solid #5badb8;
+}
+
+.hero {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+nav {
+  float: right;
+  margin-right: 60px;
+  margin-top: -50px;
+}
+
+/* -------------------------------------------------- */
+/* PRESENTATION SECTION */
+/* -------------------------------------------------- */
+
+.presentation {
+  margin-top: 125px;
+  text-align: center;
+  background-color: #5badb8;
+  color: white;
+  height: 600px;
+}
+
+.speech {
+  width: 60%;
+  margin-left: 20%;
+  line-height: 170%;
+}
+
+/* -------------------------------------------------- */
+/* SKILLS SECTION */
+/* -------------------------------------------------- */
+
+.skills {
+  margin-top: -250px;
+  text-align: center;
+}
+
+.skillset {
+  border-right: 1px solid #ecf0f9;
+  padding: 75px 45px;
+}
+
+.skillset:last-child {
+  border-right: 0px solid #ecf0f9;
+}
+
+.row {
+  background-color: white;
+  border: 1px solid #ecf0f9;
+  border-radius: 10px;
+  border-right: 0px;
+  box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5);
+}
+
+.title {
+  margin-top: 50px;
+  color: #5badb8;
+  font-weight: 500;
+}
