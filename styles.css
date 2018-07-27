@@ -21,6 +21,8 @@ body {
 }
 
 /* main theme color: #5badb8 */
+/* main theme color: #234347 */
+
 
 /* -------------------------------------------------- */
 /* REUSABLE COMPONENTS */
@@ -45,7 +47,7 @@ h2 {
 }
 
 h3 {
-  font-size: 120%;
+  font-size: 140%;
   word-spacing: 2px;
   margin-bottom: 30px;
   font-weight: bold;
@@ -75,7 +77,7 @@ button {
 
 button:hover {
   background-color: #5badb8;
-  color: white;
+  color: #fff;
 }
 
 ion-icon {
@@ -84,15 +86,29 @@ ion-icon {
   margin-bottom: 30px;
 }
 
+.logo {
+  position: absolute;
+  top: -15px;
+  width: 150px;
+}
+
+.white-logo {
+  width: 150px;
+  margin-top: 40px;
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):hover {
+  color: white;
+}
+
 
 /* -------------------------------------------------- */
-/* HEADER SECTION */
+/* HEADER */
 /* -------------------------------------------------- */
 
-img {
+.profile {
   border-radius: 50%;
   width: 150px;
-  border: 2px solid #5badb8;
 }
 
 .hero {
@@ -107,9 +123,26 @@ img {
 
 nav {
   float: right;
-  margin-right: 60px;
+  margin-right: 40px;
   margin-top: -50px;
 }
+
+.btn-portfolio {
+    background-color: white;
+    color: #5badb8;
+    border: 2px solid #5badb8;
+    padding: 8px 15px;
+    font-weight: 300;
+    transition: all 0.2s;
+    border-radius: 290486px;
+    font-size: 90%;
+}
+
+.btn-portfolio:hover {
+  background-color: #5badb8;
+  color: #fff;
+}
+
 
 /* -------------------------------------------------- */
 /* PRESENTATION SECTION */
@@ -120,7 +153,7 @@ nav {
   text-align: center;
   background-color: #5badb8;
   color: white;
-  height: 600px;
+  height: 550px;
 }
 
 .speech {
@@ -147,7 +180,7 @@ nav {
   border-right: 0px solid #ecf0f9;
 }
 
-.row {
+.board {
   background-color: white;
   border: 1px solid #ecf0f9;
   border-radius: 10px;
@@ -159,4 +192,208 @@ nav {
   margin-top: 50px;
   color: #5badb8;
   font-weight: 500;
+}
+
+/* -------------------------------------------------- */
+/* GALLERY SECTION */
+/* -------------------------------------------------- */
+
+.gallery {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.all-projects {
+  margin-top: 80px;
+}
+
+.columns {
+  padding: 15px;
+}
+
+.see-more {
+  margin-top: 100px;
+  height: 50px;
+  width: 320px;
+}
+
+.see-more:hover .github{
+  color: #fff;
+}
+
+.github {
+  font-size: 140%;
+  float: left;
+}
+
+.thumbnail {
+  height: 220px;
+  background-size:contain;
+  background-size: 110%;
+  border-radius: 10px;
+}
+
+.thumbnail:hover .project-info {
+  display: block;
+}
+
+
+.project1 {
+  background-image: url('sources/rpg.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project2 {
+  background-image: url('sources/restaurant-finder.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project3 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.27.17.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project4 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.15.22.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project5 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.20.52.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project6 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.25.03.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project7 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.31.43.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project8 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.35.24.png');
+  background-color: rgb(138, 136, 136);
+
+}
+
+.project9 {
+  background-image: url('sources/Screen Shot 2018-07-20 at 15.36.15.png');
+  background-color: rgb(138, 136, 136);
+}
+
+.thumbnail:hover {
+  background-image: url('sources/Screen Shot 2018-07-20 at 17.08.53.png');
+}
+
+
+
+.btn-gallery {
+    border: 2px solid #5badb8;
+    font-weight: 300;
+    transition: all 0.2s;
+    border-radius: 290486px;
+    background-color: #5badb8;
+    color: white;
+    position: absolute;
+    top: 140px;
+    width: 40%;
+    right: 30%;
+}
+
+.btn-gallery:hover  {
+  background-color: #4b8e96;
+}
+
+.project-title {
+  color: #5badb8;
+}
+
+.project-info {
+  padding-top: 20px;
+  display: none;
+}
+
+.project-info p {
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 70%;
+}
+
+/* -------------------------------------------------- */
+/* EMAIL SECTION */
+/* -------------------------------------------------- */
+
+.email {
+  background-color: #3c3d3d;
+  width: 80%;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.email h3 {
+  padding-top: 10px;
+}
+
+.send-email {
+  background-color: #3c3d3d;
+  color: #fff;
+}
+
+/* -------------------------------------------------- */
+/* FOOTER  */
+/* -------------------------------------------------- */
+
+
+.footer {
+  position: absolute;
+  margin-top: -180px;
+  z-index: -1;
+  width: 100%;
+  text-align: center;
+  background-color: #5badb8;
+  color: white;
+  height: 500px;
+}
+
+.links {
+  margin: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background-color: #5badb8;
+  border: 2px solid #dbdbdb;
+}
+
+.links:hover .icon-link{
+  color: #5badb8;
+}
+
+.links:hover {
+  background-color: #fff;
+}
+
+.icon-link {
+  color: #fff;
+  margin-top: -14px;
+  width: 20px;
+}
+
+.copyrights {
+  color: #dbdbdb;
+  font-size: 50%;
 }
