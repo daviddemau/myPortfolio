@@ -2,7 +2,7 @@
   "name": "david-demau-portfolio",
   "version": "1.0.0",
   "description": "my personnal site",
-  "main": "dist/layout/index.html",
+  "main": "dist/index.html",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
