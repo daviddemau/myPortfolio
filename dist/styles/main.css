@@ -240,60 +240,60 @@ nav {
 
 
 .project1 {
-  background-image: url('assets/rpg.png');
+  background-image: url('dist/assets/rpg.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project2 {
-  background-image: url('assets/restaurant-finder.png');
+  background-image: url('dist/assets/restaurant-finder.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project3 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.27.17.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.27.17.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project4 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.15.22.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.15.22.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project5 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.20.52.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.20.52.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project6 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.25.03.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.25.03.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project7 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.31.43.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.31.43.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project8 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.35.24.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.35.24.png');
   background-color: rgb(138, 136, 136);
 
 }
 
 .project9 {
-  background-image: url('assets/Screen Shot 2018-07-20 at 15.36.15.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.36.15.png');
   background-color: rgb(138, 136, 136);
 }
 
 .thumbnail:hover {
-  background-image: url('assets/Screen Shot 2018-07-20 at 17.08.53.png');
+  background-image: url('dist/assets/Screen Shot 2018-07-20 at 17.08.53.png');
 }
 
 
