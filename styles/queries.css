@@ -1,0 +1,62 @@
+@media only screen and (max-width: 991px) {
+  .project3 {
+    display: none;
+  }
+  .project6 {
+    display: none;
+  }
+  .project9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .skillset {
+    border-bottom: 1px solid #ecf0f9;
+  }
+
+  .thumbnail {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .columns {
+    padding: 0px;
+  }
+  .project3 {
+    display: block;
+  }
+  .project6 {
+    display: block;
+  }
+  .project9 {
+    display: block;
+  }
+
+  .speech {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 70%;
+  }
+
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  h3 {
+    font-size: 90%;
+  }
+
+  .menu {
+    font-size: 60%;
+  }
+
+  .btn-gallery {
+    margin-top: 70px;
+  }
+}
