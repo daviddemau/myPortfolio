@@ -236,6 +236,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
+  background-position: center;
 }
 
 .thumbnail:hover .project-info {
@@ -245,41 +246,39 @@ nav {
 .cpf-web {
   height: 270px;
   background-image: url('../assets/img/cpf-web.jpg');
-  background-color: rgb(138, 136, 136);
 }
 
 .cpf-mobile {
   height: 270px;
   background-image: url('../assets/img/cpf-mobile.png');
-  background-color: rgb(138, 136, 136);
 }
 
 .project1 {
-  background-image: url('dist/assets/rpg.png');
-  background-color: rgb(138, 136, 136);
+  background-image: url('../assets/img/fantasy.png');
 }
+
 .project2 {
-  background-image: url('dist/assets/restaurant-finder.png');
-  background-color: rgb(138, 136, 136);
+  background-image: url('../assets/img/restaurant-finder.png');
 }
+
 .project3 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.27.17.png');
-  background-color: rgb(138, 136, 136);
+  background-image: url('../assets/img/pokemons.png');
+  background-size: 50%;
 }
 
 .project4 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.15.22.png');
-  background-color: rgb(138, 136, 136);
+  background-image: url('../assets/img/foodU.png');
 }
 
 .project5 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.20.52.png');
+  background-image: url('../assets/img/mole.jpg');
   background-color: rgb(138, 136, 136);
 }
 
 .project6 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.25.03.png');
+  background-image: url('../assets/img/pomodoro.png');
   background-color: rgb(138, 136, 136);
+  background-size: 90%;
 }
 
 .project7 {
