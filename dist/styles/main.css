@@ -204,8 +204,8 @@ nav {
   text-align: center;
 }
 
-.gallery .personnal {
-  margin-top: 132px;
+.gallery .personal {
+  margin-top: 80px;
 }
 
 .all-projects {
@@ -231,12 +231,31 @@ nav {
   float: left;
 }
 
+.link-repo {
+  margin-left: 20px;
+  width: 50px!important;
+  height: 40px!important;
+}
+
+.link-repo .github{
+  color: white;
+}
+
 .thumbnail {
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position: center;
+}
+
+.technologies {
+  margin-bottom: 15px;
+}
+
+.technologies img {
+  width: 25px;
+  height: 25px;
 }
 
 .thumbnail:hover .project-info {
@@ -246,11 +265,22 @@ nav {
 .cpf-web {
   height: 270px;
   background-image: url('../assets/img/cpf-web.jpg');
+  background-size: cover;
 }
 
 .cpf-mobile {
   height: 270px;
   background-image: url('../assets/img/cpf-mobile.png');
+}
+
+.lazy {
+  width: 50% !important;
+  margin-left: 25%;
+}
+
+.lazy-cooking {
+  background-image: url('../assets/img/lazy-cooking.png');
+  background-size: cover;
 }
 
 .project1 {
@@ -262,8 +292,9 @@ nav {
 }
 
 .project3 {
-  background-image: url('../assets/img/pokemons.png');
-  background-size: 50%;
+  background-image: url('../assets/img/pokemons.jpg');
+  background-size: contain;
+  background-size: 200%;
 }
 
 .project4 {
@@ -278,7 +309,6 @@ nav {
 .project6 {
   background-image: url('../assets/img/pomodoro.png');
   background-color: rgb(138, 136, 136);
-  background-size: 90%;
 }
 
 .project7 {
@@ -307,10 +337,10 @@ nav {
     border-radius: 290486px;
     background-color: #5badb8;
     color: white;
-    position: absolute;
     top: 140px;
     width: 40%;
     right: 30%;
+    margin-top: 10px;
 }
 
 .btn-gallery:hover  {
@@ -332,6 +362,10 @@ nav {
   width: 80%;
   margin-left: 10%;
   font-size: 70%;
+}
+
+.break {
+  margin-bottom: 85px;
 }
 
 
