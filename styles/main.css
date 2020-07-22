@@ -71,9 +71,9 @@ button {
   font-weight: 300;
   transition: all 0.2s;
   border-radius: 290486px;
-  color: #5badb8;
   font-size: 90%;
   cursor: pointer;
+  outline: none!important;
 }
 
 button:hover {
@@ -204,6 +204,10 @@ nav {
   text-align: center;
 }
 
+.gallery .personal {
+  margin-top: 80px;
+}
+
 .all-projects {
   margin-top: 80px;
 }
@@ -227,64 +231,94 @@ nav {
   float: left;
 }
 
+.link-repo {
+  margin-left: 20px;
+  width: 50px!important;
+  height: 40px!important;
+}
+
+.link-repo .github{
+  color: white;
+}
+
 .thumbnail {
   height: 220px;
-  background-size:contain;
-  background-size: 110%;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
+  background-position: center;
+}
+
+.technologies {
+  margin-bottom: 15px;
+}
+
+.technologies img {
+  width: 25px;
+  height: 25px;
 }
 
 .thumbnail:hover .project-info {
   display: block;
 }
 
+.cpf-web {
+  height: 230px;
+  background-image: url('../assets/img/cpf-web.jpg');
+  background-size: cover;
+}
+
+.cpf-mobile {
+  height: 230px;
+  background-image: url('../assets/img/cpf-mobile.png');
+}
+
+.lazy {
+  width: 50% !important;
+  margin-left: 25%;
+}
+
+.lazy-cooking {
+  background-image: url('../assets/img/lazy-cooking.png');
+  background-size: cover;
+}
 
 .project1 {
-  background-image: url('dist/assets/rpg.png');
-  background-color: rgb(138, 136, 136);
-
+  background-image: url('../assets/img/fantasy.png');
 }
 
 .project2 {
-  background-image: url('dist/assets/restaurant-finder.png');
-  background-color: rgb(138, 136, 136);
-
+  background-image: url('../assets/img/restaurant-finder.png');
 }
 
 .project3 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.27.17.png');
-  background-color: rgb(138, 136, 136);
-
+  background-image: url('../assets/img/pokemons.jpg');
+  background-size: contain;
+  background-size: 200%;
 }
 
 .project4 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.15.22.png');
-  background-color: rgb(138, 136, 136);
-
+  background-image: url('../assets/img/foodU.png');
 }
 
 .project5 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.20.52.png');
+  background-image: url('../assets/img/mole.jpg');
   background-color: rgb(138, 136, 136);
-
 }
 
 .project6 {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.25.03.png');
+  background-image: url('../assets/img/pomodoro.png');
   background-color: rgb(138, 136, 136);
-
 }
 
 .project7 {
   background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.31.43.png');
   background-color: rgb(138, 136, 136);
-
 }
 
 .project8 {
   background-image: url('dist/assets/Screen Shot 2018-07-20 at 15.35.24.png');
   background-color: rgb(138, 136, 136);
-
 }
 
 .project9 {
@@ -293,10 +327,8 @@ nav {
 }
 
 .thumbnail:hover {
-  background-image: url('dist/assets/Screen Shot 2018-07-20 at 17.08.53.png');
+  background: #57595D;
 }
-
-
 
 .btn-gallery {
     border: 2px solid #5badb8;
@@ -305,14 +337,15 @@ nav {
     border-radius: 290486px;
     background-color: #5badb8;
     color: white;
-    position: absolute;
     top: 140px;
     width: 40%;
     right: 30%;
+    margin-top: 10px;
 }
 
 .btn-gallery:hover  {
   background-color: #4b8e96;
+  opacity: 0.5;
 }
 
 .project-title {
@@ -330,6 +363,11 @@ nav {
   margin-left: 10%;
   font-size: 70%;
 }
+
+.break {
+  margin-bottom: 85px;
+}
+
 
 /* -------------------------------------------------- */
 /* EMAIL SECTION */
