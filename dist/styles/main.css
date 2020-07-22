@@ -195,6 +195,10 @@ nav {
   font-weight: 500;
 }
 
+.tools {
+  margin-top: 100px;
+}
+
 /* -------------------------------------------------- */
 /* GALLERY SECTION */
 /* -------------------------------------------------- */
@@ -232,7 +236,7 @@ nav {
 }
 
 .link-repo {
-  margin-left: 20px;
+  margin-left: 15px;
   width: 50px!important;
   height: 40px!important;
 }
@@ -344,8 +348,9 @@ nav {
 }
 
 .btn-gallery:hover  {
+  color: white;
   background-color: #4b8e96;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .project-title {
