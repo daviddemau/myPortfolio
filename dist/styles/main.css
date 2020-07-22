@@ -71,9 +71,9 @@ button {
   font-weight: 300;
   transition: all 0.2s;
   border-radius: 290486px;
-  color: #5badb8;
   font-size: 90%;
   cursor: pointer;
+  outline: none!important;
 }
 
 button:hover {
@@ -263,13 +263,13 @@ nav {
 }
 
 .cpf-web {
-  height: 270px;
+  height: 230px;
   background-image: url('../assets/img/cpf-web.jpg');
   background-size: cover;
 }
 
 .cpf-mobile {
-  height: 270px;
+  height: 230px;
   background-image: url('../assets/img/cpf-mobile.png');
 }
 
